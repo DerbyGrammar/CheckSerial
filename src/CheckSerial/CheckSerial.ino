@@ -3,11 +3,11 @@
   CheckSerial
 */
 
-int ledred=8;
-int ledgreen=9;
-int ledblue=10;
-int tx=1;
-int rx=0;
+const int ledred=8;
+const int ledgreen=9;
+const int ledblue=10;
+const int tx=1;
+const int rx=0;
 char inSerial[15];
 
 
