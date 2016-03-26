@@ -10,8 +10,7 @@ const int tx = 1;
 const int rx = 0;
 char inSerial[15];
 
-
-void setup(){
+void setup() {
   Serial.begin(9600);
   pinMode(ledred, OUTPUT);
   pinMode(ledgreen, OUTPUT);
@@ -21,7 +20,7 @@ void setup(){
   allpinslow();
 }
 
-void loop(){
+void loop() {
     int i=0;
     int m=0;
     delay(500);                                         
