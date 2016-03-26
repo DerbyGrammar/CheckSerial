@@ -1,4 +1,8 @@
-//http://www.youtube.com/user/greatscottlab
+/*
+  Chris Nethercott / ThorinDev
+  CheckSerial
+*/
+
 int ledred=8;
 int ledgreen=9;
 int ledblue=10;
