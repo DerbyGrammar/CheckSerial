@@ -36,16 +36,12 @@ void CheckProtocol(char inStr[]) {
 
   Serial.println(inStr);
 
-  if(!strcmp(inStr,"helloworld")) {
-    // What do you want to happen?
-    helloworld();
+  if(!strcmp(inStr,"hello")) {
+    Serial.println("World");
+    //You can have anything here. Turning a relay on/led
     for(m = 0; m < 11; m++) {
       inStr[m] = 0;
     }
     i = 0;
   }
-}
-
-void helloworld() {
-  Serial.println("Hello World!");
 }
